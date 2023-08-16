@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+body {
+	width: 85%;
+	margin: 0 auto;
+}
+.header__nav{
+	 padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav {
+	list-style: none;
+}
+.nav__item{
+
+	display: inline-block;
+}
+.nav__link {
+	color: rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+	padding: 15px ;
+}
+
+.main__container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.content__title {
+	padding-bottom: 20px;
+	width: 75%;
+
+	font-size: 3rem;
+}
+.content__subtitle {
+	padding-bottom: 24px;
+	width: 68%;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+
+}
+
+.photo img {
+	 width: 520px;
+}
+.content__title span {
+	font-weight: 100;
+}
+.content__button {
+
+	font-size: 1rem;
+	color: #FFF;
+	border-radius: 5px;
+	background: #E8505B;
+	border: none;
+	padding: 15px 30px;
+}
